@@ -6,6 +6,32 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "addvalue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLenght",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getValue",
 				"outputs": [
@@ -16,6 +42,49 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "my2darray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -45,6 +114,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "newArr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "nftImage",
 				"outputs": [
@@ -65,6 +153,25 @@
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stringArray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -127,11 +234,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xe62907e2c1f9482c2cab510eac0ef9e2b4c0ec4344e85472acdf484c5a09c7b8",
+			"keccak256": "0xf955b7543a55395a09be27be46dec94edbea9142ac8a01e362a612d0d18ff1fa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01acb83f893e0390c05cf3681ae314744148ab446cca5a021a5295fed658f7ca",
-				"dweb:/ipfs/QmQMM7xd6A9sgc1yjPhexfGbMWwVEFXGBdX5RgDdzAAMSW"
+				"bzz-raw://c1ab7cb7fc9ab41ab17539b9557a0601341026cbd3b0cc9bb0a34c50b49e09c6",
+				"dweb:/ipfs/QmV9qN3Cg1vtoxDNWzLK65fkghW4JURzds97Xaqcdmiv8A"
 			]
 		}
 	},
