@@ -6,6 +6,57 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_author",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_book",
+						"type": "string"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_author",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_book",
+						"type": "string"
+					}
+				],
+				"name": "addNestedMapping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -16,6 +67,30 @@
 				"name": "addvalue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "books",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bookName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -108,6 +183,35 @@
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nestedMapping",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bookName",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -234,11 +338,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xf955b7543a55395a09be27be46dec94edbea9142ac8a01e362a612d0d18ff1fa",
+			"keccak256": "0xe39b6aeade2f992851ab411b59eed6ecf506d083f9451e76a755b069cea72138",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c1ab7cb7fc9ab41ab17539b9557a0601341026cbd3b0cc9bb0a34c50b49e09c6",
-				"dweb:/ipfs/QmV9qN3Cg1vtoxDNWzLK65fkghW4JURzds97Xaqcdmiv8A"
+				"bzz-raw://38ff131db17d5c1809e0c066e1674bfde3e2837a65e91a827b6d1d13b40bb3fd",
+				"dweb:/ipfs/QmRokTZtyFhw4t4j2xrVN7xEVYU9kf5xuZfzy8QNM6C7y7"
 			]
 		}
 	},
